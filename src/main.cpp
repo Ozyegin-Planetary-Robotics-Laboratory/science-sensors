@@ -23,7 +23,7 @@ MCP2515 mcp2515(10);
 
 void setup() {
 
-  Serial.begin(115200); // sets the serial port to 9600
+  Serial.begin(115200);
 
   Serial.println("Gas sensor warming up!");
   delay(1000); // allow the MQ's to warm up
